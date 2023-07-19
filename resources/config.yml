@@ -12,6 +12,61 @@ delay: 1
 
 # A list of all your crate types
 types:
+  check:
+    name: "§l§b»§r §7[§bCheckCrates§7]§r"
+    rewards:
+      - name: "§eGolden Carrot"
+        item:
+          name: "§eGolden Carrot"
+          id: "minecraft:golden_carrot"
+          amount: 30
+          lore: "Makanan Raja"
+        commands:
+        - "msg {player} §aBerhasil!"
+      - name: "§6Carrot"
+        item:
+          name: "§6Carrot"
+          id: "minecraft:carrot"
+          amount: 30
+          lore: "Makanan Raja"
+        commands:
+        - "msg {player} §aBerhasil!"
+      - name: "§eGolden Apple"
+        item:
+          name: "§eGolden Apple"
+          id: "minecraft:golden_apple"
+          amount: 30
+          lore: "Makanan Raja"
+        commands:
+        - "msg {player} §aBerhasil!"
+      - name: "§cApple"
+        item:
+          name: "§cApple"
+          id: "minecraft:apple"
+          amount: 30
+          lore: "Makanan Raja"
+        commands:
+        - "msg {player} §aBerhasil!"
+      - name: "§r§bBlue Sword§r"
+        item: 
+          name: "§r§bBlue Sword§r"
+          id: "diamond_sword"
+          amount: 1
+          lore: "Pedang Sang Legenda"
+          enchantments:
+            - name: "sharpness"
+              level: "10"
+            - name: "power"
+              level: "10"
+            - name: "unbreaking"
+              level: "10"
+            - name: "punch"
+              level: "10"
+            - name: "fire_aspect"
+              level: "10"
+        commands:
+          - "title {player} actionbar §aKamu Mendapatkan Diamond Sword!"
+          - "msg {player} §aBerhasil!"
   # the id of the crate, this will identify your crate everywhere
   common:
     # the name displayed above the crate
